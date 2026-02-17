@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python <3.13
     - setuptools >=61.0
     - pip
   run:
-    - python
+    - python <3.13
     - encor >=1.1.5
     - enterprise-pulsar >=3.4.4,<4.0.0
     - enterprise_extensions >=3.0.2,<4.0.0
